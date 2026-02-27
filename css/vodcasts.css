@@ -1,0 +1,64 @@
+.vodcasts-section {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: #fff;
+  padding: 60px 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.vodcasts-section h2 {
+  text-align: center;
+  font-size: 2.2rem;
+  color: #fcd34d;
+  margin-bottom: 40px;
+}
+
+.vodcasts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.vodcast-card {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.vodcast-card:hover {
+  transform: translateY(-6px);
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  background: #000;
+}
+
+.video-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
+  top: 0;
+  left: 0;
+}
+
+.vodcast-info {
+  padding: 20px;
+  font-size: 0.95rem;
+}
+
+.vodcast-info p {
+  margin: 8px 0;
+  line-height: 1.4;
+  color: #e0e0e0;
+}
+
+.vodcast-info strong {
+  color: #fcd34d;
+}

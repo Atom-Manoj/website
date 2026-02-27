@@ -1,0 +1,65 @@
+/* 🎧 Podcasts Section - Dark Theme */
+.podcasts-section {
+  background: linear-gradient(to bottom right, #0d0d0d, #1a1a1a);
+  padding: 60px 20px;
+  color: #f0f0f0;
+  text-align: center;
+}
+
+.podcasts-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #ffd700; /* Golden yellow */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #ffd700;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+.podcasts-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 30px;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.podcast-card {
+  background: #121212;
+  border: 1px solid #333;
+  border-radius: 16px;
+  box-shadow: 0 0 15px rgba(255, 215, 0, 0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.podcast-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.25);
+}
+
+.video-wrapper iframe {
+  width: 100%;
+  height: 352px;
+  border: none;
+  border-radius: 16px 16px 0 0;
+}
+
+.podcast-info {
+  padding: 20px;
+  color: #ccc;
+  font-size: 0.95rem;
+  background-color: #1a1a1a;
+  border-top: 1px solid #333;
+}
+
+.podcast-info p {
+  margin: 8px 0;
+  line-height: 1.6;
+}
+
+.podcast-info strong {
+  color: #ffd700;
+}

@@ -1,0 +1,130 @@
+.article-details {
+  background-color: #222; /* dark background */
+  color: #fff;            /* white text */
+  padding: 60px 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.article-details .container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.article-title {
+  font-size: 3rem;
+  color: #c4a424; /* yellow-gold */
+  margin-bottom: 15px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.article-meta {
+  font-size: 1rem;
+  color: #ddd;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.article-meta span {
+  margin: 0 10px;
+  font-weight: 600;
+}
+
+.article-content {
+  font-size: 1.15rem;
+  line-height: 1.8;
+  text-align: justify;
+  color: #eee;
+}
+.article-content img.article-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 30px auto; /* center with space above and below */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+.article-content h2 {
+  color: #c4a424; /* yellow-gold */
+  font-size: 2rem;
+  margin: 40px 0 20px;
+  font-weight: 700;
+  border-bottom: 2px solid #c4a424;
+  padding-bottom: 8px;
+}
+
+.article-content h3 {
+  color: #c4a424;
+  font-size: 1.5rem;
+  margin: 30px 0 15px;
+  font-weight: 600;
+  border-bottom: 1.5px solid #a58c1a;
+  padding-bottom: 6px;
+}
+.article-content h4 {
+  color: #c4a424; /* yellow-gold */
+  font-size: 1.25rem;
+  margin: 25px 0 12px;
+  font-weight: 600;
+}
+.back-btn {
+  display: inline-block;
+  margin: 20px 0;
+  padding: 10px 20px;
+  background-color: #c4a424;
+  color: #222;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1rem;
+}
+
+.back-btn:hover {
+  background-color: #a58c1a;
+  color: #fff;
+}
+.article-content ul,
+.article-content ol {
+  margin: 20px 0 20px 40px; /* spacing with indentation */
+  color: #fff;              /* dark text for readability */
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.article-content ul li {
+  list-style-type: disc;  /* default bullet */
+  margin-bottom: 8px;
+}
+
+.article-content ol {
+  list-style-type: decimal; /* numbers */
+}
+
+.article-content ul li::marker {
+  color: #c4a424;  /* yellow bullet color */
+  font-weight: bold;
+}
+
+.article-content ol li::marker {
+  color: #c4a424;  /* yellow number color */
+  font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .article-title {
+    font-size: 2.2rem;
+  }
+
+  .article-content {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .article-title {
+    font-size: 1.8rem;
+  }
+}

@@ -1,0 +1,97 @@
+/* 📞 Contact Us Section - Dark Theme with Golden Accents */
+.contact_us_green {
+  background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+  color: #f0f0f0;
+  padding: 60px 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contactus-head {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #ffd700;
+  margin-bottom: 20px;
+}
+
+.contactus-subhead {
+  font-size: 1rem;
+  color: #ddd;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.container-box {
+  background: #121212;
+  padding: 30px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.container-box:hover {
+  transform: scale(1.01);
+  box-shadow: 0 0 30px rgba(255, 215, 0, 0.2);
+}
+
+.workik-contact-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.text-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.contact-svg {
+  width: 24px;
+  height: 24px;
+  filter: brightness(0) saturate(100%) invert(91%) sepia(63%) saturate(745%) hue-rotate(1deg) brightness(104%) contrast(104%);
+}
+
+.contact-text {
+  font-size: 0.95rem;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.social-media-links {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.social-svg {
+  width: 28px;
+  height: 28px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.social-svg:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 6px #ffd700);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .contactus-head {
+    font-size: 2rem;
+  }
+
+  .container-box {
+    padding: 20px;
+  }
+
+  .contact-text {
+    font-size: 0.9rem;
+  }
+
+  .social-svg {
+    width: 24px;
+    height: 24px;
+  }
+}
